@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Валюты.StandardCommand.OpenList</commands>
+      <commands>ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ГрафикиРаботы.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
+      <commands>Document.НачислениеЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfAccounts.Управленческий.StandardCommand.OpenList</commands>
+      <commands>Catalog.Подразделения.StandardCommand.OpenList</commands>
+      <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.РегистрАдресации.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.СведенияОСотрудниках.StandardCommand.OpenList</commands>
+      <commands>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.Удержания.StandardCommand.OpenList</commands>
+      <commands>Enum.УчетнаяПолитика.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УчетнаяПолитика.StandardCommand.OpenList</commands>
+      <commands>Catalog.ФизическиеЛица.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ПродажиТоваров.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>
