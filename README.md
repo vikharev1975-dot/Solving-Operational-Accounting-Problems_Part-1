@@ -1,1 +1,1 @@
-# Solving-Operational-Accounting-Problems_Part-1
+Домашнее задание к занятию «Решение задач оперативного учёта. Часть 1»
