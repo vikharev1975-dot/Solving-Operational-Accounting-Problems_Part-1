@@ -3,9 +3,7 @@
   <commandsVisibility>
     <visibilityFragments>
       <command>AccumulationRegister.ПродажиТоваров.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</command>
@@ -20,13 +18,19 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.РасходнаяНакладная.StandardCommand.OpenList</command>
+      <command>Catalog.СкладыКомпании.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.ПриходнаяНакладная.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.РасходнаяНакладная.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -53,6 +57,16 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Номенклатура.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ПродажиТоваров.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -63,11 +77,12 @@
     <placementFragments>
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.СкладыКомпании.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Документы</group>
-      <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.СмТакже</group>
@@ -85,9 +100,14 @@
       <commands>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
+      <group>CommandGroup.Справочники</group>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.СкладыКомпании.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
       <group>CommandGroup.Документы</group>
-      <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.СмТакже</group>
@@ -96,6 +116,15 @@
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>Enum.УчетнаяПолитика.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Catalog.Номенклатура.StandardCommand.CreateFolder</commands>
+      <commands>Document.ПриходнаяНакладная.StandardCommand.Create</commands>
+      <commands>Document.РасходнаяНакладная.StandardCommand.Create</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.Create</commands>
+      <commands>Catalog.СкладыКомпании.StandardCommand.Create</commands>
+      <commands>InformationRegister.УчетнаяПолитика.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

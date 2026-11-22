@@ -19,4 +19,6 @@
   <content>AccumulationRegister.ОстаткиНоменклатуры</content>
   <content>AccumulationRegister.ПродажиТоваров</content>
   <content>Report.ПродажиТоваров</content>
+  <content>Catalog.СкладыКомпании</content>
+  <content>Report.ВедомостьПоПартиямТоваров</content>
 </mdclass:Subsystem>
